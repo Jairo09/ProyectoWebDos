@@ -4,9 +4,17 @@
         <servlet-name>ServletUno</servlet-name>
         <servlet-class>ProyectoWebDos.servlets.ServletUno</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletDos</servlet-name>
+        <servlet-class>ProyectoWebDos.servlets.ServletDos</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletUno</servlet-name>
         <url-pattern>/ServletURL</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletDos</servlet-name>
+        <url-pattern>/ServletDos</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
